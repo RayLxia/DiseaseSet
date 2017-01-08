@@ -5278,3 +5278,171 @@ Error: You have an error in your SQL syntax; check the manual that corresponds t
 Time2017-01-08 08:37:06
 */
 ?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (3) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:40
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (19) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:42
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (11) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:42
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (30) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:42
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (31) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:43
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_archives_action.php?endid=0&startid=0&typeid=0&totalnum=31&startdd=20&pagesize=20&seltime=0&sstime=1483844020&stime=&etime=&uptype=mkall&mkvalue=0&isremote=0&serviterm=
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (32) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:44
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_archives_action.php?endid=0&startid=0&typeid=0&totalnum=31&startdd=20&pagesize=20&seltime=0&sstime=1483844020&stime=&etime=&uptype=mkall&mkvalue=0&isremote=0&serviterm=
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (34) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:53:44
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (3) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:28
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (19) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:30
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (11) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:30
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (30) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:30
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_all.php?action=make&step=2&uptype=mkall&mkvalue=0
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (31) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:30
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_archives_action.php?endid=0&startid=0&typeid=0&totalnum=31&startdd=20&pagesize=20&seltime=0&sstime=1483844188&stime=&etime=&uptype=mkall&mkvalue=0&isremote=0&serviterm=
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (32) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:31
+*/
+?>
+<?php  exit();
+/*
+Page: /dede/makehtml_archives_action.php?endid=0&startid=0&typeid=0&totalnum=31&startdd=20&pagesize=20&seltime=0&sstime=1483844188&stime=&etime=&uptype=mkall&mkvalue=0&isremote=0&serviterm=
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xA1\xAF10\xA1\xE4' at line 6 <br />Error sql: <font color='red'>SELECT arc.*,tp.typedir,tp.typename,tp.corank,tp.isdefault,tp.defaultname,tp.namerule,
+        tp.namerule2,tp.ispart,tp.moresite,tp.siteurl,tp.sitepath
+        
+        FROM `dede_archives` arc LEFT JOIN `dede_arctype` tp on arc.typeid=tp.id
+        
+         WHERE  arc.typeid IN (34) And  arc.arcrank > -1    ORDER BY arc.sortrank desc  LIMIT 0,¡¯10¡ä </font>
+Time2017-01-08 10:56:31
+*/
+?>
