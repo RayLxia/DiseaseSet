@@ -1,0 +1,77 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="GBK">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="{dede:field.keywords/}"/>
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}"/>
+    <title>{dede:field.seotitle /}_{dede:global.cfg_webname/}</title>
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/base.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/header.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/position.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/list_article.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/nav_left.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/footer.css">
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+    <script>
+        function multi(pagenum,tagid)
+        {
+            var taget_obj = document.getElementById(tagid);
+            var taget_obj_page = document.getElementById("page_"+tagid);
+            myajax = new DedeAjax(taget_obj,false,false,'','','');
+            myajax.SendGet2("/plus/arcmulti.php?mtype=0&pnum="+pagenum+'&tagid='+tagid);
+            myajax = new DedeAjax(taget_obj_page,false,false,'','','');
+            myajax.SendGet2("/plus/arcmulti.php?mtype=1&pnum="+pagenum+'&tagid='+tagid);
+            DedeXHTTP = null;
+        }
+    </script>
+    <style>
+        footer {
+            padding-bottom: 100px;
+        }
+
+        .list_article {
+            width: 906px;
+        }
+    </style>
+</head>
+<body>
+{dede:include filename="header.htm"/}
+<div class="container">
+    <div class="position">
+        {dede:field name='position'/}
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="fl">
+        {dede:include filename="nav_left.htm"/}
+    </div>
+    <div class="list_article fr">
+        <ul>
+            {dede:list col='100' pagesize="10" titlelen="46" orderby='pubdate' }
+            <li>
+                <h3>[field:title/]</h3>
+                <p>[field:description function="cn_substr(@me,120)"/]...
+                    <a href="[field:arcurl /]" target="_blank">[查看详情]</a>
+                </p>
+            </li>
+            {/dede:list}
+        </ul>
+        <ul id="page_listsr" class="clearfix">
+            {dede:pagelist listsize='3' listitem='index,pre,next,pageno'/}
+        </ul>
+    </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/jquery-2.2.0.min.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/fixed_bottom.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/nav_left.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/header.js"></script>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="GBK">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="{dede:field.keywords/}" />
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <title>{dede:field.seotitle /}_{dede:global.cfg_webname/}</title>
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/base.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/header.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/position.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/list_column.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/main_right.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/BaseFile/css/footer.css">
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Live800默认功能代码: 开始-->
+    <script language="javascript"
+            src="http://chat32.live800.com/live800/chatClient/monitor.js?jid=1671450517&companyID=234321&configID=46399&codeType=custom"></script>
+    <!-- Live800默认功能代码: 结束-->
+    <style>
+        footer {
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="top_nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li>您好，欢迎访问南京玛丽妇产医院</li>
+                <li>
+                    <div class="article-s" id="scrollnews">
+                        {dede:arclist pagesize="4" titlelen="46" flag="s" orderby='rand' typeid="rand" }
+                        <a href="[field:arcurl /] " target="_blank">
+                            [field:title /]
+                        </a>
+                        {/dede:arclist}
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <a href="#">新浪微博 |</a>
+                    <a href="#">微信关注 |</a>
+                    <a href="#">问诊渠道</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header_logo clearfix">
+            <h3 class="fl">南京玛丽妇产医院</h3>
+            <ul class="clearfix fr">
+                <li>
+                    <a href="/" target="_blank">网站首页</a>
+                </li>
+                <li>
+                    {dede:type typeid = "1"}
+                    <a href="[field:typelink /]" target="_blank">[field:typename /]</a>
+                    {/dede:type}
+                </li>
+                <li>
+                    {dede:type typeid = "2"}
+                    <a href="[field:typelink /]" target="_blank">[field:typename /]</a>
+                    {/dede:type}
+                </li>
+                <li>
+                    {dede:type typeid = "3"}
+                    <a href="[field:typelink /]" target="_blank">[field:typename /]</a>
+                    {/dede:type}
+                </li>
+                <li>
+                    {dede:type typeid = "4"}
+                    <a href="[field:typelink /]" target="_blank">[field:typename /]</a>
+                    {/dede:type}
+                </li>
+                <li>
+                    {dede:type typeid = "5"}
+                    <a href="[field:typelink /]" target="_blank">[field:typename /]</a>
+                    {/dede:type}
+                </li>
+                <li>
+                    <a href="/swt/" target="_blank">预约挂号</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header_channel">
+        <div class="container clearfix">
+            <ul class="clearfix fl">
+                {dede:channelartlist typeid='6,6'}
+                <li>
+                    <h3>
+                        <a href="{dede:field name='typeurl'/}" target="_blank">
+                            {dede:field name='typename'/}
+                        </a>
+                    </h3>
+                    <div class="content clearfix">
+                        {dede:channel type='son' noself='yes'}
+                        <a href="[field:typelink/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:channel}
+                    </div>
+                </li>
+                {/dede:channelartlist}
+                {dede:channelartlist typeid='7,7'}
+                <li>
+                    <h3>
+                        <a href="{dede:field name='typeurl'/}" target="_blank">
+                            {dede:field name='typename'/}
+                        </a>
+                    </h3>
+                    <div class="content clearfix">
+                        {dede:channel type='son' noself='yes'}
+                        <a href="[field:typelink/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:channel}
+                    </div>
+                </li>
+                {/dede:channelartlist}
+
+                <li>
+                    <h3>
+                        {dede:type typeid='8'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                    </h3>
+                    <div class="content clearfix">
+                        {dede:type typeid='25'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                        {dede:type typeid='26'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                        {dede:type typeid='27'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                        {dede:type typeid='28'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                        {dede:type typeid='29'}
+                        <a href="[field:typeurl/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:type}
+                    </div>
+                </li>
+
+                {dede:channelartlist typeid='9,9'}
+                <li>
+                    <h3>
+                        <a href="{dede:field name='typeurl'/}" target="_blank">
+                            {dede:field name='typename'/}
+                        </a>
+                    </h3>
+                    <div class="content clearfix">
+                        {dede:channel type='son' noself='yes'}
+                        <a href="[field:typelink/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:channel}
+                    </div>
+                </li>
+                {/dede:channelartlist}
+                {dede:channelartlist typeid='10,10'}
+                <li>
+                    <h3>
+                        <a href="{dede:field name='typeurl'/}" target="_blank">
+                            {dede:field name='typename'/}
+                        </a>
+                    </h3>
+                    <div class="content clearfix">
+                        {dede:channel type='son' noself='yes'}
+                        <a href="[field:typelink/]" target="_blank">
+                            [field:typename/]
+                        </a>
+                        {/dede:channel}
+                    </div>
+                </li>
+                {/dede:channelartlist}
+            </ul>
+            <div class="choose_more fr">
+                {dede:type typeid='67'}
+                <a href="[field:typeurl/]" target="_blank">
+                    所有病种
+                </a>
+                {/dede:type}
+            </div>
+        </div>
+    </div>
+    <div class="hd-banner clearfix">
+        <ul class="clearfix hd-banner-cot-box" style="left: -3166px;">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="container hd-banner-cot">
+            <div class="jt-cot fl jt-fl-po" style="display: none; opacity: 1;">
+                <i class="jt-fl"></i>
+            </div>
+            <div class="jt-cot fr jt-fr-po" style="display: none; opacity: 1;">
+                <i class="jt-fr"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="position">
+        {dede:field name='position'/}
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="list_column fl">
+        <ul class="ul-box">
+
+            {dede:channelartlist  row="20"}
+            <li class="tab-1">
+                <div class="clearfix title1">
+                    <div class="fl">{dede:field name='typename'/}</div>
+                    <span>
+                        {dede:arclist row='4' flag='s' orderby='pubdate' titlelen="46" }
+                            <a href="[field:arcurl /]" target="_blank">
+                                 [field:title /]
+                             </a>
+                        {/dede:arclist}
+                </span>
+                    <div class="fr"><a href="{dede:field name='typeurl'/}" target="_blank">更多内容</a></div>
+                </div>
+                <div class="ul-box1">
+                    {dede:arclist pagesize="1" flag="p" titlelen="46" orderby='pubdate'}
+                    <div class="clearfix li">
+                        <div class="pic fl">
+                            <img src="[field:litpic/]" style="border: none" alt="[field:title /]">
+                        </div>
+                        <div class="ul-box1-article fl">
+                            <h3>[field:title /]</h3>
+                            <p>[field:description function="cn_substr(@me,120)"/]... <span><a href="[field:arcurl /]" target="_blank">【查看更多】</a></span></p>
+                        </div>
+                    </div>
+                    {/dede:arclist}
+                    <div class="zhenzhuang clearfix">
+                        <ul class="clearfix">
+                            {dede:arclist row="6" titlelen="46" orderby='pubdate'}
+                            <li>
+                                <a href="[field:arcurl /] " target="_blank">
+                                    [field:title /]
+                                </a>
+                            </li>
+                            {/dede:arclist}
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            {/dede:channelartlist}
+        </ul>
+    </div>
+    <div class="fr">
+        {dede:include filename="main_right.htm"/}
+    </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/jquery-2.2.0.min.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/fixed_bottom.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/main_right.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/list_column.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/BaseFile/js/header.js"></script>
+</html>

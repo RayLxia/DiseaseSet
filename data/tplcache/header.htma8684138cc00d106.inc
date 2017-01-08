@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("arclist","\r\n                         <a href=\"[field:arcurl /] \" target=\"_blank\">\r\n                            [field:title /]\r\n                        </a>\r\n                        ",269,536);
+$z[0][4]['pagesize']="4";
+$z[0][4]['titlelen']="46";
+$z[0][4]['flag']="s";
+$z[0][4]['orderby']="rand";
+$z[0][4]['typeid']="rand";
+$z[1]=Array("type","\r\n                    <a href=\"[field:typelink /]\" target=\"_blank\">[field:typename /]</a>\r\n                    ",1150,1297);
+$z[1][4]['typeid']="1";
+$z[2]=Array("type","\r\n                    <a href=\"[field:typelink /]\" target=\"_blank\">[field:typename /]</a>\r\n                    ",1364,1511);
+$z[2][4]['typeid']="2";
+$z[3]=Array("type","\r\n                    <a href=\"[field:typelink /]\" target=\"_blank\">[field:typename /]</a>\r\n                    ",1578,1725);
+$z[3][4]['typeid']="3";
+$z[4]=Array("type","\r\n                    <a href=\"[field:typelink /]\" target=\"_blank\">[field:typename /]</a>\r\n                    ",1792,1939);
+$z[4][4]['typeid']="4";
+$z[5]=Array("type","\r\n                    <a href=\"[field:typelink /]\" target=\"_blank\">[field:typename /]</a>\r\n                    ",2006,2153);
+$z[5][4]['typeid']="5";
+$z[6]=Array("channelartlist","\r\n                <li>\r\n                    <h3>\r\n                        <a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">\r\n                            {dede:field name='typename'/}\r\n                        </a>\r\n                    </h3>\r\n                    <div class=\"content clearfix\">\r\n                        {dede:channel type='son' noself='yes'}\r\n                        <a href=\"[field:typelink/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        {/dede:channel}\r\n                    </div>\r\n                </li>\r\n                ",2466,3140);
+$z[6][4]['typeid']="6,6";
+$z[7]=Array("channelartlist","\r\n                <li>\r\n                    <h3>\r\n                        <a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">\r\n                            {dede:field name='typename'/}\r\n                        </a>\r\n                    </h3>\r\n                    <div class=\"content clearfix\">\r\n                        {dede:channel type='son' noself='yes'}\r\n                        <a href=\"[field:typelink/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        {/dede:channel}\r\n                    </div>\r\n                </li>\r\n                ",3158,3832);
+$z[7][4]['typeid']="7,7";
+$z[8]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",3908,4114);
+$z[8][4]['typeid']="8";
+$z[9]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",4219,4426);
+$z[9][4]['typeid']="25";
+$z[10]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",4452,4659);
+$z[10][4]['typeid']="26";
+$z[11]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",4685,4892);
+$z[11][4]['typeid']="27";
+$z[12]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",4918,5125);
+$z[12][4]['typeid']="28";
+$z[13]=Array("type","\r\n                        <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        ",5151,5358);
+$z[13][4]['typeid']="29";
+$z[14]=Array("channelartlist","\r\n                <li>\r\n                    <h3>\r\n                        <a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">\r\n                            {dede:field name='typename'/}\r\n                        </a>\r\n                    </h3>\r\n                    <div class=\"content clearfix\">\r\n                        {dede:channel type='son' noself='yes'}\r\n                        <a href=\"[field:typelink/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        {/dede:channel}\r\n                    </div>\r\n                </li>\r\n                ",5429,6103);
+$z[14][4]['typeid']="9,9";
+$z[15]=Array("channelartlist","\r\n                <li>\r\n                    <h3>\r\n                        <a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">\r\n                            {dede:field name='typename'/}\r\n                        </a>\r\n                    </h3>\r\n                    <div class=\"content clearfix\">\r\n                        {dede:channel type='son' noself='yes'}\r\n                        <a href=\"[field:typelink/]\" target=\"_blank\">\r\n                            [field:typename/]\r\n                        </a>\r\n                        {/dede:channel}\r\n                    </div>\r\n                </li>\r\n                ",6121,6797);
+$z[15][4]['typeid']="10,10";
+$z[16]=Array("type","\r\n                <a href=\"[field:typeurl/]\" target=\"_blank\">\r\n                    À˘”–≤°÷÷\r\n                </a>\r\n                ",6876,7042);
+$z[16][4]['typeid']="67";
+
+?>
