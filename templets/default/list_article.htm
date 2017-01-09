@@ -45,8 +45,8 @@
                 </li>
                 <li class="clearfix">
                     <a href="#">新浪微博 |</a>
-                    <a href="#">微信关注 |</a>
-                    <a href="#">问诊渠道</a>
+                    <a href="#">微信关注</a>
+                    <!--<a href="#">问诊渠道</a>-->
                 </li>
             </ul>
         </div>
@@ -215,7 +215,11 @@
         <ul>
             {dede:list col='100' pagesize="10" titlelen="46" orderby='pubdate' }
             <li>
-                <h3>[field:title/]</h3>
+                <h3>
+                    <a href="[field:arcurl /]" target="_blank">
+                        [field:title/]
+                    </a>
+                </h3>
                 <p>[field:description function="cn_substr(@me,120)"/]...
                     <a href="[field:arcurl /]" target="_blank">[查看详情]</a>
                 </p>

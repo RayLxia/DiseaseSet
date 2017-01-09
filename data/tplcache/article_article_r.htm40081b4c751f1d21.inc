@@ -35,19 +35,19 @@ $z[15]=Array("field","",2295,2314);
 $z[15][4]['name']="click";
 $z[16]=Array("field","",2610,2628);
 $z[16][4]['name']="body";
-$z[17]=Array("prenext","",2761,2786);
+$z[17]=Array("prenext","",2733,2758);
 $z[17][4]['get']="pre";
-$z[18]=Array("prenext","",2891,2917);
+$z[18]=Array("prenext","",2831,2857);
 $z[18][4]['get']="next";
-$z[19]=Array("include","",2979,3016);
+$z[19]=Array("include","",2915,2952);
 $z[19][4]['filename']="footer.htm";
-$z[20]=Array("global","",3042,3074);
+$z[20]=Array("global","",2978,3010);
 $z[20][4]['name']="cfg_templets_skin";
-$z[21]=Array("global","",3132,3164);
+$z[21]=Array("global","",3068,3100);
 $z[21][4]['name']="cfg_templets_skin";
-$z[22]=Array("global","",3218,3250);
+$z[22]=Array("global","",3154,3186);
 $z[22][4]['name']="cfg_templets_skin";
-$z[23]=Array("global","",3300,3332);
+$z[23]=Array("global","",3236,3268);
 $z[23][4]['name']="cfg_templets_skin";
 
 ?>

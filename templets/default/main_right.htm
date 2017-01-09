@@ -20,7 +20,7 @@
         <div class="hot clearfix">
             <h3 class="fl">热门推荐</h3>
             <span class="fr">
-                    <a href="#">MORE+</a>
+                    <a href="javascript:;">MORE+</a>
                 </span>
         </div>
         <div class="hot-list">
@@ -50,10 +50,19 @@
                 {dede:arclist typeid='2' pagesize='3' addfields='zhuanjianame,zhicheng,zuozhentime,zhuanjiamiaoshu' channelid='17' orderby='rand'}
                 <li class="clearfix">
                     <div class="fl">
-                        <img src="[field:litpic/]" style="border: none" alt="[field:title /]">
+                        <a href="[field:arcurl /]" target="_blank">
+                            <img src="[field:litpic/]" style="border: none" alt="[field:title /]">
+                        </a>
                     </div>
                     <div class="fr">
-                        <h3>[field:zhuanjianame/]<ins>[field:zhicheng/]</ins></h3>
+                        <h3>
+                            <a href="[field:arcurl /]" target="_blank">
+                                [field:zhuanjianame/]
+                            </a>
+                            <ins>
+                                [field:zhicheng/]
+                            </ins>
+                        </h3>
                         <p>坐诊时间 :</p>
                         <p>[field:zuozhentime/]</p>
                         <p>

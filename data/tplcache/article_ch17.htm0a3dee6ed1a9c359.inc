@@ -45,19 +45,19 @@ $z[20]=Array("field","",2943,2968);
 $z[20][4]['name']="zhuanjiades";
 $z[21]=Array("field","",3088,3115);
 $z[21][4]['name']="zhuanjiainfor";
-$z[22]=Array("prenext","",3272,3297);
+$z[22]=Array("prenext","",3244,3269);
 $z[22][4]['get']="pre";
-$z[23]=Array("prenext","",3402,3428);
+$z[23]=Array("prenext","",3342,3368);
 $z[23][4]['get']="next";
-$z[24]=Array("include","",3490,3527);
+$z[24]=Array("include","",3426,3463);
 $z[24][4]['filename']="footer.htm";
-$z[25]=Array("global","",3553,3585);
+$z[25]=Array("global","",3489,3521);
 $z[25][4]['name']="cfg_templets_skin";
-$z[26]=Array("global","",3643,3675);
+$z[26]=Array("global","",3579,3611);
 $z[26][4]['name']="cfg_templets_skin";
-$z[27]=Array("global","",3729,3761);
+$z[27]=Array("global","",3665,3697);
 $z[27][4]['name']="cfg_templets_skin";
-$z[28]=Array("global","",3811,3843);
+$z[28]=Array("global","",3747,3779);
 $z[28][4]['name']="cfg_templets_skin";
 
 ?>
